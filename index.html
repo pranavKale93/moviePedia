@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title> MoviePedia </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" type="module" src="scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" type="module" src="scripts.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row searchbar">
+            <div class="col-md-1">
+                <h4> sort by </h4> <br>
+                <button class="btn btn-secondary" onclick="sortById()">  episode No</button> <br>
+                <button class="btn btn-secondary" onclick="sortByTitle()">title</button> <br>
+                <button class="btn btn-secondary" onclick="sortByDate()">Date of release</button>
+            </div>
+            <div class="col-md-9">
+                <input class="form-control w-100" type="search" placeholder="Type to filter" aria-label="Search"
+                    id="search-input">
+            </div>
+        </div>
+    </div>
+    <section class="intro">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 left">
+                <ul class="list-group movie-list table table-striped table-hover">
+                    <!-- Movie items will be added dynamically using JavaScript -->
+                </ul>
+            </div>
+            <div class="col-xs-1 vl"></div>
+            <div class="col-lg-5 col-md-3 right">
+            </div>
+        </div>
+    </section>
+    </div>
+</body>

@@ -1,0 +1,87 @@
+.movie-list {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .movie-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .epid {
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  .title {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .release {
+    width: 100px;
+    text-align: center;
+  }
+  
+  .vl {
+      display : flex;
+      border-left: 3px solid #E2E6E9;
+      height: 100%;
+      width: 1%;
+    }
+  
+   .searchbar {
+      padding: 10px;
+      background-color: #F7F8FA;
+      border-bottom: 3px solid #E2E6E9;
+    }
+    
+    .rowsetup {
+      padding: 50px;
+      border-bottom: 1px solid #E2E6E9 ;
+    }
+  
+  
+    @media (max-width: 1200px) { 
+      .left{
+        height:40%
+      }
+      .vl {
+          display : flex;
+          border-bottom: 3px solid #E2E6E9;
+          height: 1%;
+      }
+      .right{
+        height:60%
+      }
+      .rowsetup {
+          padding: 5px;
+          border-bottom: 1px solid #E2E6E9 ;
+        }
+      .col-lg-2 {
+          width: 2%;
+      }
+      
+    }
+  
+  
+    .imgsetup {
+      width: 30%;
+      height:30%;
+      display: flex; 
+   }
+  
+   .col-xs-1 {
+       width: 1%;
+   }
+  
+   .checked {
+       color: orange;
+     }
+  
+  

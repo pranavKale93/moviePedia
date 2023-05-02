@@ -1,0 +1,14 @@
+{
+  "name": "moviepedia",
+  "version": "1.0.0",
+  "description": "In this project, we are fetching movie list from Apis and fetching movie poster and rating from other Apis and showing them in a list and showing movie details after clicking on the list.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Pranav Kale",
+  "license": "ISC",
+  "dependencies": {
+    "jest-environment-jsdom": "^29.5.0"
+  }
+}
